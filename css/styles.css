@@ -1,11 +1,14 @@
 :root {
     --brand-color-blue: #4D5AE5;
     --background-dark: #2E2F42;
+    --cloud: #f4f4fd;
+    --ocean: #13719c;
 }
 .body {
     font-family: "roboto", sans-serif;
     font-style: normal;
     color: var(--background-dark);
+    list-style-type: none;
 
 }
 /* heder */
@@ -23,7 +26,19 @@
 .logo-web {
     color: var(--brand-color-blue);
 }
-.nav-list{
+.logo:hover,
+.logo-web:hover {
+    color: var(--ocean);
+}
+.nav-list,
+.address-list,
+.about-list,
+.what-list,
+.team-list,
+.filters-list,
+.images-row-1-list,
+.images-row-2-list,
+.images-row-3-list {
     list-style-type: none;
 }
 .nav-link {
@@ -34,8 +49,8 @@
     text-decoration: none;
     color: var(--background-dark);
 }
-.address-list {
-    list-style-type: none;
+.nav-link:hover {
+    color: var(--ocean);
 }
 .address-link {
     font-weight: 400;
@@ -44,6 +59,9 @@
     color: var(--background-dark);
     text-decoration: none;
     font-style: normal;
+}
+.address-link:hover {
+    color: var(--ocean);
 }
 /* Main-index */
 .main-hero {
@@ -67,9 +85,6 @@
     letter-spacing: 0.02em;
 }
 /* section-about */
-.about-list {
-    list-style-type: none;
-}
 .about-list h3 {
     font-weight: 500;
     font-size: 20px;
@@ -98,14 +113,20 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team h3 {
+.team h3,
+.images-row-1-list h3,
+.images-row-2-list h3,
+.images-row-3-list h3{
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        text-align: center;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
-.team p {
+.team p,
+.images-row-1-list p,
+.images-row-2-list p,
+.images-row-3-list p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -117,7 +138,10 @@
     background-color: var(--background-dark);
 }
 .footer a {
-    color: #F4F4FD;
+    color: var(--cloud);
+}
+.footer a:hover {
+    color: var(--ocean);
 }
 .footer p {
     color: #F4F4FD;
@@ -125,4 +149,17 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+/* main-portfolio */ 
+.filters-list button {
+    color: var(--brand-color-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--cloud);
+}
+.filters-list button:hover,
+.filters-list button:focus {
+    color: #ffffff;
+    background-color: #404BBF;
 }

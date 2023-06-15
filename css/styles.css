@@ -131,7 +131,7 @@ background-color: var(--ocean);
 }
 /* section-team */
 .team {
-    background-color: var(--background-dark);
+    background-color: var(--cloud);
 }
 .team-title {
     font-weight: 700;
@@ -141,6 +141,7 @@ background-color: var(--ocean);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     line-height: 1.11;
+    color: var(--background-dark);
 }
 .employers {
     font-weight: 500;

@@ -3,12 +3,14 @@
     --background-dark: #2E2F42;
     --cloud: #f4f4fd;
     --ocean: #13719c;
+    --white: #FFFFFF;
 }
 body {
     font-family: "roboto", sans-serif;
     font-style: normal;
     color: #434455;
     list-style-type: none;
+    background-color: var(--white)
 }
 /* heder */
 .link {

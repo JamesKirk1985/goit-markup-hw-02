@@ -1,5 +1,5 @@
 :root {
-    --brand-color-blue: #4D5AE5;
+    --brand-color-blue: #4d5ae5;
     --background-dark: #2E2F42;
     --cloud: #f4f4fd;
     --ocean: #13719c;
@@ -13,7 +13,7 @@
 }
 /* heder */
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;

@@ -163,7 +163,7 @@ background-color: var(--ocean);
     color: var(--cloud);
 }
 .footer-logo-studio:hover {
-    color: var(--ocean);
+    color: var(--cloud);
 }
 .footer-text {
     color: #F4F4FD;

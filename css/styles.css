@@ -1,0 +1,8 @@
+.body {
+    font-family: "roboto", sans-serif;
+    color: #2E2F42;
+}
+:root {
+    --brand-color: #4D5AE5;
+    --background-dark: #2E2F42;
+}

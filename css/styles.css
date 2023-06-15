@@ -173,12 +173,15 @@ background-color: var(--ocean);
     letter-spacing: 0.02em;
 }
 /* main-portfolio */ 
-.filters-list button {
+.filters-list-button {
     color: var(--brand-color-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     background-color: var(--cloud);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filters-list button:hover,
 .filters-list button:focus {

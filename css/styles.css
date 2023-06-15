@@ -61,13 +61,10 @@ body {
 .nav-link:focus {
     color: var(--ocean);
 }
-address {
-    font-style: normal
-}
-.address {
-    font-style: normal
-}
 .contact {
+    font-style: normal
+}
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -76,8 +73,8 @@ address {
     letter-spacing: 0.02em;
     color: var(--grey-blue);
 }
-.contact:hover,
-.contact:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--ocean);
 }
 /* Main-index */

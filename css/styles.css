@@ -151,27 +151,21 @@ background-color: var(--ocean);
     letter-spacing: 0.02em;
     background-color: var(--white);
 }
-.team p,
-.images-row-1-list p,
-.images-row-2-list p,
-.images-row-3-list p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
-}
 /* footer */
 .footer {
     background-color: var(--background-dark);
 }
-.footer a {
+.footer-link {
+    color: var(--brand-color-blue);
+
+}
+.footer-logo-studio {
     color: var(--cloud);
 }
 .footer a:hover {
     color: var(--ocean);
 }
-.footer p {
+.footer-text {
     color: #F4F4FD;
     font-weight: 400;
     font-size: 16px;

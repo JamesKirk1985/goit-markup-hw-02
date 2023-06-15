@@ -193,4 +193,6 @@ background-color: var(--ocean);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--background-dark);
+    font-size: 20px;
+    
 }

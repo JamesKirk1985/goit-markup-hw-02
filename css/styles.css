@@ -64,6 +64,9 @@ body {
 address {
     font-style: normal
 }
+.address {
+    font-style: normal
+}
 .contact {
     font-weight: 400;
     font-size: 16px;

@@ -31,7 +31,10 @@ body {
 }
 .logo:hover,
 .logo-web:hover {
-    color: var(--ocean);
+    color: var(--ocean);  
+}
+.link {
+    text-decoration: none;
 }
 .nav-list,
 .address-list,

@@ -130,6 +130,9 @@ background-color: var(--ocean);
     color: var(--background-dark);
 }
 /* section-team */
+.team {
+    background-color: var(--background-dark);
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -137,16 +140,15 @@ background-color: var(--ocean);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    line-height: 1.11;
 }
-.team h3,
-.images-row-1-list h3,
-.images-row-2-list h3,
-.images-row-3-list h3{
+.employers {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    background-color: var(--white);
 }
 .team p,
 .images-row-1-list p,

@@ -20,7 +20,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--background-dark);
+    color: var(--brand-color-blue);
 }
 .logo-web {
     color: var(--brand-color-blue);

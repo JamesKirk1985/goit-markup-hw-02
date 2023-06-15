@@ -4,7 +4,7 @@
     --cloud: #f4f4fd;
     --ocean: #13719c;
 }
-.body {
+body {
     font-family: "roboto", sans-serif;
     font-style: normal;
     color: var(--background-dark);

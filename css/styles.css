@@ -102,18 +102,21 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-color: var(--ocean);
+background-color: var(--ocean);
 }
 /* section-about */
-.about-list h3 {
+.about-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-blue);
 }
-.about-list p {
+.about-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* section-what are we doin */
 .what-title {

@@ -24,7 +24,7 @@ body {
     color: var(--brand-color-blue);
 }
 .logo-studio {
-    color: var(--brand-color-blue);
+    color: var(--background-dark);
 }
 .logo:hover,
 .logo-web:hover {
@@ -32,6 +32,9 @@ body {
 }
 .link {
     text-decoration: none;
+}
+.list {
+    list-style: none;
 }
 .nav-list,
 .address-list,

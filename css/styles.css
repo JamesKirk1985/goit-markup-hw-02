@@ -188,3 +188,6 @@ background-color: var(--ocean);
     color: #ffffff;
     background-color: #404BBF;
 }
+.images-title {
+    font-weight: 500;
+}

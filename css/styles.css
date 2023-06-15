@@ -35,6 +35,7 @@ body {
 }
 .list {
     list-style: none;
+    text-decoration: none;
 }
 .nav-list,
 .address-list,

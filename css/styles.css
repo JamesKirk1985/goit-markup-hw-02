@@ -4,6 +4,7 @@
     --cloud: #f4f4fd;
     --ocean: #404bbf;
     --white: #FFFFFF;
+    --grey-blue: #434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -70,6 +71,8 @@ address {
     color: var(--background-dark);
     text-decoration: none;
     font-style: normal;
+    letter-spacing: 0.02em;
+    color: var(--grey-blue);
 }
 .address-link:hover,
 .address-link:focus {
